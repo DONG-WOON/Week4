@@ -14,7 +14,7 @@
 		72AFC27D2A81E7C00095D917 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFC27C2A81E7C00095D917 /* VideoViewController.swift */; };
 		72C05DE82A80966600173900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05DE72A80966600173900 /* AppDelegate.swift */; };
 		72C05DEA2A80966600173900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05DE92A80966600173900 /* SceneDelegate.swift */; };
-		72C05DEC2A80966600173900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05DEB2A80966600173900 /* ViewController.swift */; };
+		72C05DEC2A80966600173900 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05DEB2A80966600173900 /* MovieViewController.swift */; };
 		72C05DEF2A80966600173900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C05DED2A80966600173900 /* Main.storyboard */; };
 		72C05DF12A80966800173900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C05DF02A80966800173900 /* Assets.xcassets */; };
 		72C05DF42A80966800173900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72C05DF22A80966800173900 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 		72C05DE42A80966600173900 /* Week4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C05DE72A80966600173900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72C05DE92A80966600173900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72C05DEB2A80966600173900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72C05DEB2A80966600173900 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		72C05DEE2A80966600173900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72C05DF02A80966800173900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72C05DF32A80966800173900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 				72C05DE72A80966600173900 /* AppDelegate.swift */,
 				72C05DE92A80966600173900 /* SceneDelegate.swift */,
 				72AFC2772A81D53B0095D917 /* BoxOffice.swift */,
-				72C05DEB2A80966600173900 /* ViewController.swift */,
+				72C05DEB2A80966600173900 /* MovieViewController.swift */,
 				72AFC2752A81C9DA0095D917 /* Weather.swift */,
 				72AFC2732A81C4C20095D917 /* WeatherViewController.swift */,
 				72AFC27C2A81E7C00095D917 /* VideoViewController.swift */,
@@ -190,7 +190,7 @@
 				72C05E082A809C5000173900 /* TranslationViewController.swift in Sources */,
 				72AFC2742A81C4C20095D917 /* WeatherViewController.swift in Sources */,
 				72AFC27D2A81E7C00095D917 /* VideoViewController.swift in Sources */,
-				72C05DEC2A80966600173900 /* ViewController.swift in Sources */,
+				72C05DEC2A80966600173900 /* MovieViewController.swift in Sources */,
 				72C05E0A2A809C5900173900 /* APIKEY.swift in Sources */,
 				72C05DE82A80966600173900 /* AppDelegate.swift in Sources */,
 				72C05DEA2A80966600173900 /* SceneDelegate.swift in Sources */,
