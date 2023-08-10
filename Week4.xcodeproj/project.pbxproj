@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72AFC2742A81C4C20095D917 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFC2732A81C4C20095D917 /* WeatherViewController.swift */; };
+		72AFC2762A81C9DA0095D917 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFC2752A81C9DA0095D917 /* Weather.swift */; };
+		72AFC2782A81D53B0095D917 /* BoxOffice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFC2772A81D53B0095D917 /* BoxOffice.swift */; };
+		72AFC27B2A81D7DE0095D917 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 72AFC27A2A81D7DE0095D917 /* SkeletonView */; };
+		72AFC27D2A81E7C00095D917 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFC27C2A81E7C00095D917 /* VideoViewController.swift */; };
 		72C05DE82A80966600173900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05DE72A80966600173900 /* AppDelegate.swift */; };
 		72C05DEA2A80966600173900 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05DE92A80966600173900 /* SceneDelegate.swift */; };
 		72C05DEC2A80966600173900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05DEB2A80966600173900 /* ViewController.swift */; };
@@ -17,9 +22,17 @@
 		72C05E002A8096BB00173900 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 72C05DFF2A8096BB00173900 /* Kingfisher */; };
 		72C05E032A8096C700173900 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 72C05E022A8096C700173900 /* SwiftyJSON */; };
 		72C05E062A809BC100173900 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 72C05E052A809BC100173900 /* .gitignore */; };
+		72C05E082A809C5000173900 /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05E072A809C5000173900 /* TranslationViewController.swift */; };
+		72C05E0A2A809C5900173900 /* APIKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C05E092A809C5900173900 /* APIKEY.swift */; };
+		72C405C12A8318510044C891 /* SwiftPrettyPrint in Frameworks */ = {isa = PBXBuildFile; productRef = 72C405C02A8318510044C891 /* SwiftPrettyPrint */; };
+		72C405C32A83239A0044C891 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C405C22A83239A0044C891 /* VideoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72AFC2732A81C4C20095D917 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		72AFC2752A81C9DA0095D917 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		72AFC2772A81D53B0095D917 /* BoxOffice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOffice.swift; sourceTree = "<group>"; };
+		72AFC27C2A81E7C00095D917 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		72C05DE42A80966600173900 /* Week4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C05DE72A80966600173900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72C05DE92A80966600173900 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +42,9 @@
 		72C05DF32A80966800173900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C05DF52A80966800173900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72C05E052A809BC100173900 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		72C05E072A809C5000173900 /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		72C05E092A809C5900173900 /* APIKEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKEY.swift; sourceTree = "<group>"; };
+		72C405C22A83239A0044C891 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C405C12A8318510044C891 /* SwiftPrettyPrint in Frameworks */,
+				72AFC27B2A81D7DE0095D917 /* SkeletonView in Frameworks */,
 				72C05E032A8096C700173900 /* SwiftyJSON in Frameworks */,
 				72C05E002A8096BB00173900 /* Kingfisher in Frameworks */,
 				72C05DFD2A8096B000173900 /* Alamofire in Frameworks */,
@@ -66,7 +84,14 @@
 			children = (
 				72C05DE72A80966600173900 /* AppDelegate.swift */,
 				72C05DE92A80966600173900 /* SceneDelegate.swift */,
+				72AFC2772A81D53B0095D917 /* BoxOffice.swift */,
 				72C05DEB2A80966600173900 /* ViewController.swift */,
+				72AFC2752A81C9DA0095D917 /* Weather.swift */,
+				72AFC2732A81C4C20095D917 /* WeatherViewController.swift */,
+				72AFC27C2A81E7C00095D917 /* VideoViewController.swift */,
+				72C405C22A83239A0044C891 /* VideoCollectionViewCell.swift */,
+				72C05E072A809C5000173900 /* TranslationViewController.swift */,
+				72C05E092A809C5900173900 /* APIKEY.swift */,
 				72C05DED2A80966600173900 /* Main.storyboard */,
 				72C05DF02A80966800173900 /* Assets.xcassets */,
 				72C05E052A809BC100173900 /* .gitignore */,
@@ -96,6 +121,8 @@
 				72C05DFC2A8096B000173900 /* Alamofire */,
 				72C05DFF2A8096BB00173900 /* Kingfisher */,
 				72C05E022A8096C700173900 /* SwiftyJSON */,
+				72AFC27A2A81D7DE0095D917 /* SkeletonView */,
+				72C405C02A8318510044C891 /* SwiftPrettyPrint */,
 			);
 			productName = Week4;
 			productReference = 72C05DE42A80966600173900 /* Week4.app */;
@@ -129,6 +156,8 @@
 				72C05DFB2A8096B000173900 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				72C05DFE2A8096BB00173900 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				72C05E012A8096C700173900 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				72AFC2792A81D7DE0095D917 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				72C405BF2A8318510044C891 /* XCRemoteSwiftPackageReference "SwiftPrettyPrint" */,
 			);
 			productRefGroup = 72C05DE52A80966600173900 /* Products */;
 			projectDirPath = "";
@@ -158,9 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72C05E082A809C5000173900 /* TranslationViewController.swift in Sources */,
+				72AFC2742A81C4C20095D917 /* WeatherViewController.swift in Sources */,
+				72AFC27D2A81E7C00095D917 /* VideoViewController.swift in Sources */,
 				72C05DEC2A80966600173900 /* ViewController.swift in Sources */,
+				72C05E0A2A809C5900173900 /* APIKEY.swift in Sources */,
 				72C05DE82A80966600173900 /* AppDelegate.swift in Sources */,
 				72C05DEA2A80966600173900 /* SceneDelegate.swift in Sources */,
+				72AFC2782A81D53B0095D917 /* BoxOffice.swift in Sources */,
+				72C405C32A83239A0044C891 /* VideoCollectionViewCell.swift in Sources */,
+				72AFC2762A81C9DA0095D917 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +414,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		72AFC2792A81D7DE0095D917 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		72C05DFB2A8096B000173900 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -402,9 +446,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		72C405BF2A8318510044C891 /* XCRemoteSwiftPackageReference "SwiftPrettyPrint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/YusukeHosonuma/SwiftPrettyPrint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		72AFC27A2A81D7DE0095D917 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72AFC2792A81D7DE0095D917 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
 		72C05DFC2A8096B000173900 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 72C05DFB2A8096B000173900 /* XCRemoteSwiftPackageReference "Alamofire" */;
@@ -419,6 +476,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 72C05E012A8096C700173900 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
+		};
+		72C405C02A8318510044C891 /* SwiftPrettyPrint */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72C405BF2A8318510044C891 /* XCRemoteSwiftPackageReference "SwiftPrettyPrint" */;
+			productName = SwiftPrettyPrint;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
